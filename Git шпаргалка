@@ -13,6 +13,7 @@ git init
 На гитхабе репозиторий для роса ros_repos
 
 Связываем локальный и удаленный репозитории (подставить url удаленного репа)
+НЕТ НЕ ИСПОШЛЬЗОВАТЬ ЕБ**** HTTP ТОЛЬКО SSH!!!!
 git remote add origin https://github.com/AnnaGordova/ros_repos.git
 ----------------------
 В первый раз
