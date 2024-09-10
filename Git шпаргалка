@@ -1,0 +1,34 @@
+Установить имя пользователя
+git config --global user.name "Ann"
+
+Установить почту
+git config --global user.email "annagordova2@gmail.com"
+
+Переходим в папку, которую хотим сделать репозиторием
+cd ros2_ws
+
+Делаем папку локальным репозиторием
+git init
+
+На гитхабе репозиторий для роса ros_repos
+
+Связываем локальный и удаленный репозитории (подставить url удаленного репа)
+git remote add origin https://github.com/AnnaGordova/ros_repos.git
+----------------------
+В первый раз
+git remote set-url origin git@github.com:AnnaGordova/ros_repos1.git
+git push origin master
+-------------------------
+
+Узнать инфу о локальнос репозитории (выполняется из нужной папки)
+git status 
+
+Проиндексировать (добавить в индекс), подготвить к коммиту всё, что есть в локальном репе (если надо выборочно, то перечислить имена папок/файлов вместо точек)
+git add .
+
+Закоммитить (в кавчках можно указать сообщение к коммиту)
+git commit -m "Start: my_robot_controller, turtlebot4_space"
+
+Публикация изменений (отправить коммиты с локального репозитория на удаленный) в ветку мастер
+git push origin master
+
